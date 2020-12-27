@@ -10,7 +10,7 @@ import (
 func helloHandler(w http.ResponseWriter, r *http.Request) {
 	response := os.Getenv("RESPONSE")
 	if len(response) == 0 {
-		response = "CHALLENGE"
+		response = "rttv88HtYRwh3B141wq6l7NCn6KhhTICfT1YtWHBs18.P6I5-jRr2ixTG6s-6Sw2EBIfQUXY1n8G5Lmr3_Ynxew"
 	}
 
 	fmt.Fprintln(w, response)
